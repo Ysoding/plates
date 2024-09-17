@@ -1,0 +1,16 @@
+[package]
+name = "plates"
+version = "0.1.0"
+edition = "2021"
+authors = ["XmchxUp <sunhuayangak47@gmail.com>"]
+readme = "README.md"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "plates"
+path = "src/lib.rs"
+
+[dependencies]
+base32 = "0.5.1"
+rand = "0.8.5"
